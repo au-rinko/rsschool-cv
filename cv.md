@@ -32,6 +32,7 @@ function digitalRoot(n){
 ```
 
 ## Experience
+During my studies I've completed several projects:
 * [Library](https://au-rinko.github.io/projects/library/)
 * [Cat Energy](https://au-rinko.github.io/projects/catenergy/)
 * [Gllacy](https://au-rinko.github.io/projects/gllacy/)

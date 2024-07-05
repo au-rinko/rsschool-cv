@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My CV</title>
+
+        <link rel="icon" href="img/icons/favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@0,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Open+Sans:wght@0,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@0,300..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="page__body">
+
+        <div class="container">
+
+            <header class="header">
+
+                <button type="button" class="menu-toggle menu-toggle--closed">
+                    <span class="visually-hidden">Menu toggle</span>
+                </button>
+
+                <nav class="header__nav">
+                    <ul class="header__nav-list">
+                        <li class="header__nav-item">
+                            <a href="#about">About me</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#education">Education</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#experience">Experience</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#skills">My skills</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#language">Languages</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#code">Code example</a>
+                        </li>
+                        <li class="header__nav-item">
+                            <a href="#contact">Contact information</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main class="main">
+                <h1 class="page__title">Iryna Sakalova</h1>
+
+                <div class="main__sections">
+                    <section class="about" id="about">
+                        <h2 class="about__title section__title">About me</h2>
+
+                        <div class="about__pic">
+                            <img src="img/avatar.jpg" alt="My photo" width="450" height="450">
+                        </div>
+
+                        <p class="about__text">I’ve been working as a website administrator for a long time. I know how to create content, but now I want to be on the other side and create websites. I like to improve myself, enrich my knowledge and learn something new, that’s why now I’m trying to do my best to master frontend development.</p>
+                    </section>
+
+                    <section class="education" id="education">
+                        <h2 class="education__title section__title">Education</h2>
+
+                        <ul class="education__list">
+                            <li class="education__item">
+                                <h3 class="education__item-title">RS School</h3>
+                                <p> JavaScript / Front-end Course (stage 0)</p>
+                                <p class="date">Now in progress</p>
+                            </li>
+                            <li class="education__item">
+                                <h3 class="education__item-title">Udemy courses</h3>
+                                <ul>
+                                    <li>
+                                        <p><a href="https://www.udemy.com/course/javascript_full">Full JS + React Course </a> by Ivan Petrichenko</p>
+                                        <p class="date">Now in progress</p>
+                                    </li>
+                                    <li>
+                                        <p><a href="https://www.udemy.com/course/webdeveloper/">Web Developer</a> by Ivan Petrichenko</p>
+                                        <p class="date">Completed</p>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="education__item">
+                                <h3 class="education__item-title">Academy of Public Administration (Belarus)</h3>
+                                <p>Management of Information Resources</p>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="skills" id="skills">
+                        <h2 class="skills__title section__title">My skills</h2>
+
+                        <ul class="skills__list">
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="80%">HTML</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="60%">CSS</h3>
+                                </div> 
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="50%">JavaScript</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="50%">SASS</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="50%">Git/GitHub</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="30%">Gulp</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="60%">VS Code</h3>
+                                </div>
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="50%">Figma</h3>
+                                </div>  
+                            </li>
+                            <li class="skills__item">
+                                <div class="skills__wrapper">
+                                    <h3 class="skills__percent" data-percent="60%">Adobe Photoshop</h3>
+                                </div>  
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="languages" id="language">
+                        <h2 class="languages__title section__title">Languages</h2>
+
+                        <ul class="languages__list">
+                            <li class="languages__item">
+                                <div class="languages__percent" data-level="5">
+                                    <span>Belarusian</span>
+                                </div>
+                            </li>
+                            <li class="languages__item">
+                                <div class="languages__percent" data-level="5">
+                                    <span>Russian</span> 
+                                </div>
+                            </li>
+                            <li class="languages__item">
+                                <div class="languages__percent" data-level="3">
+                                    <span>English</span>
+                                </div>
+                            </li>
+                            <li class="languages__item">
+                                <div class="languages__percent" data-level="3">
+                                    <span>Polish</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="code" id="code">
+                        <h2 class="code__title section__title">Code example</h2>
+
+                        <code class="code__example">
+                            <span class="blue">function</span> <span class="lightyellow">digitalRoot</span><span class="yellow">(</span><span class="lightblue">n</span><span class="yellow">){</span><br>
+                                &emsp;&emsp;&emsp;&emsp;<span class="blue">let</span> <span class="lightblue">sum</span> = <span class="lightgreen">0</span>;<br>
+                                &emsp;&emsp;&emsp;&emsp;<span class="pink">for(</span><span class="blue">const</span> <span class="lightblue">i</span> <span class="blue">of</span> <span class="green">String</span><span class="blue">(</span><span class="lightblue">n</span><span class="blue">)</span><span class="pink">){</span><br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<span class="lightblue">sum</span> += +<span class="lightblue">i</span>;<br>
+                                &emsp;&emsp;&emsp;&emsp;<span class="pink">}<br>
+                                &emsp;&emsp;&emsp;&emsp;if(</span><span class="lightblue">sum</span> >= <span class="lightgreen">10</span><span class="pink">){<br>
+                                &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;return</span> <span class="lightyellow">digitalRoot</span><span class="blue">(</span><span class="lightblue">sum</span><span class="blue">)</span>;<br>
+                                &emsp;&emsp;&emsp;&emsp;<span class="pink">}<br>
+                                &emsp;&emsp;&emsp;&emsp;return</span> <span class="lightblue">sum</span>;<br>
+                            <span class="yellow">}</span>
+                        </code>
+                    </section>
+
+                    <section class="contact" id="contact">
+                        <h2 class="contact__title section__title">Contact information</h2>
+
+                        <ul class="contact__list">
+                            <li class="contact__item">
+                                <span class="contact__item-name">E-mail:</span>
+                                <a href="mailto:ir.falcon90@gmail.com">ir.falcon90@gmail.com</a>
+                            </li>
+                            <li class="contact__item">
+                                <span class="contact__item-name">GitHub:</span>
+                                <a href="https://github.com/au-rinko">au-rinko</a>
+                            </li>
+                            <li class="contact__item">
+                                <span class="contact__item-name">Discord::</span>
+                                <a href="https://discordapp.com/users/.richi_f">@.richi_f</a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="experience" id="experience">
+                        <h2 class="experience__title section__title">Experience</h2>
+
+                        <p>During my studies I’ve completed several projects:</p>
+
+                        <ul class="experience__list">
+                            <li class="experience__item">
+                                <a href="https://au-rinko.github.io/projects/library/" class="experience__link">
+                                    <figure class="experience__figure">
+                                        <img src="img/library.jpg" alt="Library">
+                                        <figcaption>Library</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="experience__item">
+                                <a href="https://au-rinko.github.io/projects/catenergy/" class="experience__link">
+                                    <figure class="experience__figure">
+                                        <img src="img/catenergy.jpg" alt="Cat Energy">
+                                        <figcaption>Cat Energy</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                            <li class="experience__item">
+                                <a href="https://au-rinko.github.io/projects/gllacy/" class="experience__link">
+                                    <figure class="experience__figure">
+                                        <img src="img/gllacy.jpg" alt="Gllacy">
+                                        <figcaption>Gllacy</figcaption>
+                                    </figure>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                </div>
+            </main>
+
+            <footer class="footer">
+                <a href="https://github.com/au-rinko" class="copyright">
+                    © Au-rinko 2024 
+                </a>
+
+                <a href="https://rs.school/courses/javascript-ru" class="school__logo">
+                    <img src="img/icons/rs-school-logo.svg" alt="RS School logo" width="70" height="35">
+                    <span>The Rolling Scopes School</span>
+                </a>
+            </footer>
+            
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -68,7 +68,7 @@ a{
     font-weight: 600;
     font-display: swap;
     src: url("fonts/Montserrat-SemiBold.woff") format("woff");
-    src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2");
+    src: url("fonts/Montserrat-SemiBold.woff2") format("woff2");
 }
 @font-face {
     font-family: "Montserrat";
@@ -297,7 +297,7 @@ a{
 }
 
 .skills__title::before{
-    background: url("/img/icons/skills.svg") center center no-repeat;
+    background: url("img/icons/skills.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -412,12 +412,12 @@ a{
 .language__level{
     width: 20px;
     height: 20px;
-    background: url("/img/icons/star.svg") center center no-repeat;
+    background: url("img/icons/star.svg") center center no-repeat;
     background-size: contain;
 }
 
 .language__level--active{
-    background: url("/img/icons/star-active.svg") center center no-repeat;
+    background: url("img/icons/star-active.svg") center center no-repeat;
     background-size: contain;
 }
 
@@ -430,7 +430,7 @@ a{
 }
 
 .code__title::before{
-    background: url("/img/icons/code.svg") center center no-repeat;
+    background: url("img/icons/code.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -479,7 +479,7 @@ a{
 }
 
 .contact__title::before{
-    background: url("/img/icons/contact.svg") center center no-repeat;
+    background: url("img/icons/contact.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -538,7 +538,7 @@ a{
 }
 
 .experience__title::before{
-    background: url("/img/icons/experience.svg") center center no-repeat;
+    background: url("img/icons/experience.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 

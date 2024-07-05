@@ -39,43 +39,43 @@ a{
     font-family: "Jost";
     font-weight: 400;
     font-display: swap;
-    src: url("/fonts/Jost-Regular.woff") format("woff");
-    src: url("/fonts/Jost-Regular.woff2") format("woff2");
+    src: url("fonts/Jost-Regular.woff") format("woff");
+    src: url("fonts/Jost-Regular.woff2") format("woff2");
 }
 @font-face {
     font-family: "Jost";
     font-weight: 500;
     font-display: swap;
-    src: url("/fonts/Jost-Medium.woff") format("woff");
-    src: url("/fonts/Jost-Medium.woff2") format("woff2");
+    src: url("fonts/Jost-Medium.woff") format("woff");
+    src: url("fonts/Jost-Medium.woff2") format("woff2");
 }
 @font-face {
     font-family: "Jost";
     font-weight: 600;
     font-display: swap;
-    src: url("/fonts/Jost-SemiBold.woff") format("woff");
-    src: url("/fonts/Jost-SemiBold.woff2") format("woff2");
+    src: url("fonts/Jost-SemiBold.woff") format("woff");
+    src: url("fonts/Jost-SemiBold.woff2") format("woff2");
 }
 @font-face {
     font-family: "Montserrat";
     font-weight: 500;
     font-display: swap;
-    src: url("/fonts/Montserrat-Medium.woff") format("woff");
-    src: url("/fonts/Montserrat-Medium.woff2") format("woff2");
+    src: url("fonts/Montserrat-Medium.woff") format("woff");
+    src: url("fonts/Montserrat-Medium.woff2") format("woff2");
 }
 @font-face {
     font-family: "Montserrat";
     font-weight: 600;
     font-display: swap;
-    src: url("/fonts/Montserrat-SemiBold.woff") format("woff");
+    src: url("fonts/Montserrat-SemiBold.woff") format("woff");
     src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2");
 }
 @font-face {
     font-family: "Montserrat";
     font-weight: 700;
     font-display: swap;
-    src: url("../fonts/Montserrat-Bold.woff") format("woff");
-    src: url("../fonts/Montserrat-Bold.woff2") format("woff2");
+    src: url("fonts/Montserrat-Bold.woff") format("woff");
+    src: url("fonts/Montserrat-Bold.woff2") format("woff2");
 }
 
 /*desktop page*/
@@ -201,7 +201,7 @@ a{
 }
 
 .about__title::before{
-    background: url('../img/icons/about.svg') center center no-repeat;
+    background: url("img/icons/about.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -227,7 +227,7 @@ a{
 }
 
 .education__title::before{
-    background: url('../img/icons/education.svg') center center no-repeat;
+    background: url("img/icons/education.svg") center center no-repeat;
     background-size: 65% 65%;
 }
 
@@ -297,7 +297,7 @@ a{
 }
 
 .skills__title::before{
-    background: url('../img/icons/skills.svg') center center no-repeat;
+    background: url("/img/icons/skills.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -357,7 +357,7 @@ a{
 }
 
 .languages__title::before{
-    background: url('../img/icons/languages.svg') center center no-repeat;
+    background: url("img/icons/languages.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -412,12 +412,12 @@ a{
 .language__level{
     width: 20px;
     height: 20px;
-    background: url('../img/icons/star.svg') center center no-repeat;
+    background: url("/img/icons/star.svg") center center no-repeat;
     background-size: contain;
 }
 
 .language__level--active{
-    background: url('../img/icons/star-active.svg') center center no-repeat;
+    background: url("/img/icons/star-active.svg") center center no-repeat;
     background-size: contain;
 }
 
@@ -430,7 +430,7 @@ a{
 }
 
 .code__title::before{
-    background: url('../img/icons/code.svg') center center no-repeat;
+    background: url("/img/icons/code.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -479,7 +479,7 @@ a{
 }
 
 .contact__title::before{
-    background: url('../img/icons/contact.svg') center center no-repeat;
+    background: url("/img/icons/contact.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
@@ -538,7 +538,7 @@ a{
 }
 
 .experience__title::before{
-    background: url('../img/icons/experience.svg') center center no-repeat;
+    background: url("/img/icons/experience.svg") center center no-repeat;
     background-size: 60% 60%;
 }
 
